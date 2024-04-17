@@ -14,7 +14,7 @@ public class Main {
         shapes.add(circle);
 
         for (Shape s : shapes) {
-            System.out.println(s.toString());
+            System.out.println(s);
         }
 
         List<ThreeDShape> threeDShapes = new ArrayList<>();
